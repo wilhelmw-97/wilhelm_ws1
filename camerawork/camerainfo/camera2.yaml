@@ -1,0 +1,20 @@
+image_width: 640
+image_height: 480
+camera_name: monitor_camera_2
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [1112.896469167515, 0, 323.5019877019848, 0, 1153.380353850504, 160.5269353749245, 0, 0, 1]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.3672361250827251, 0.2548837420772511, -0.01336332001073702, -0.0004660866004080387, 0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [1079.7919921875, 0, 323.5728467251465, 0, 0, 1121.411865234375, 156.3042161547091, 0, 0, 0, 1, 0]

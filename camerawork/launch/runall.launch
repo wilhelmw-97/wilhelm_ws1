@@ -1,0 +1,10 @@
+<launch>
+ <include file="$(find camerawork)/launch/basic_camera_locations.launch" />
+ <include file="$(find camerawork)/launch/my_alvar@camera0.launch" />
+ <include file="$(find camerawork)/launch/my_alvar@camera1.launch" />
+ <include file="$(find camerawork)/launch/my_usb_cam@video0.launch" />
+ <include file="$(find camerawork)/launch/my_usb_cam@video1.launch" />
+
+
+
+</launch>
