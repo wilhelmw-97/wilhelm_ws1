@@ -15,7 +15,7 @@ DIRECTORY msg
 
 add_service_files(
 DIRECTORY srv
-FILES ProcessCorrdination.srv
+FILES SetField.srv
 )
 
  generate_messages(

@@ -1,0 +1,18 @@
+<launch>
+
+<node name="my_tf_static_publisher1" pkg="tf2_ros" type="static_transform_publisher" respawn="false" output="screen" args="0 0 0 0 0 0 world fake_base_link" />
+
+<node name="my_tf_static_publisher2" pkg="tf2_ros" type="static_transform_publisher" respawn="false" output="screen" args="0 0 0 0 0 0 world camera_ceiling" />
+
+<node name="my_tf_static_publisher3" pkg="tf2_ros" type="static_transform_publisher" respawn="false" output="screen" args="0 0 0 0 0 0 fake_base_link camera_robotino" />
+
+
+
+<!---
+<node name="my_tf_static_publisher2" pkg="tf2_ros" type="static_transform_publisher" respawn="false" output="screen" args="0 0 0 0 0 0 base_link monitor_camera_robotino" />
+
+
+<node name="my_tf_static_publisher2" pkg="tf2_ros" type="static_transform_publisher" respawn="false" output="screen" args="0 0 0 0 0 0 world monitor_camera_robotino" />
+-->
+
+</launch>

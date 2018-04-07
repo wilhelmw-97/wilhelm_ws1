@@ -4,7 +4,7 @@
 	<arg name="max_track_error" default="0.2" />
 	<arg name="cam_image_topic" default="/camera1/usb_cam/image_raw" />
 	<arg name="cam_info_topic" default="/camera1/usb_cam/camera_info" />
-	<arg name="output_frame" default="/world" />
+	<arg name="output_frame" default="/monitor_camera_1" />
 
 	<node name="ar_track_alvar1" pkg="ar_track_alvar" type="individualMarkersNoKinect" respawn="false" output="screen">
 		<param name="marker_size"           type="double" value="$(arg marker_size)" />

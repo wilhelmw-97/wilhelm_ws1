@@ -1,0 +1,7 @@
+<launch>
+
+<node name="calibration_node" pkg="tf2_ros" type="static_transform_publisher" respawn="false" output="screen" args="0 0 0 0 0 0 world ar_marker_0" />
+
+
+
+</launch>

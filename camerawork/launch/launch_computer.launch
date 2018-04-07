@@ -1,0 +1,11 @@
+<launch>
+ <include file="$(find camerawork)/launch/basic_camera_locations.launch" />
+
+ <node name="node_1" pkg="nodes_on_computer" type="node_1" />
+ 
+<node name="node_2" pkg="nodes_on_computer" type="node_2" />
+
+
+
+
+</launch>
